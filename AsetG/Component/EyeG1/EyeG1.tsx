@@ -13,7 +13,7 @@ export default function EyeG1() {
             <Spline scene="https://prod.spline.design/66r8CG8Gmx61L5E7/scene.splinecode"/>
         </div> 
         <div className={st.tekb}>
-            <Image src="/images/bgb2.jpg" layout='fill' alt="back" priority/>     
+            <Image src="/images/bgb2.jpg" layout='fill' alt="back"/>     
         </div>
         <div className={st.te}>
           <p>a smarter way of living</p>        
