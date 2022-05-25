@@ -1,21 +1,20 @@
 import CardItemV2 from "../../Component/CardItem/CardItemV2/CardItemV2";
 import dataProduct from "../../Data/DataProduct/DataProduct";
+import st from './MainContent.module.css';
 
 const MainContent =(props:any)=>{
     const data= dataProduct;         
     console.log(props);        
-    if (props.id!==undefined){
-        console.log('masuk');
+    if (props.id!==undefined){        
         var fit= data.filter(hh=>{           
             return (hh.category==props.id)        
         })
-    }else{
-        console.log('keluar');        
+    }else{                
         var fit=data;
     }
 
     return(
-        <>       
+        <div className={st.contg}>       
         {
         fit.map((item)=> 
         <CardItemV2
@@ -27,7 +26,7 @@ const MainContent =(props:any)=>{
         />                    
         )
         }
-        </>        
+        </div>        
     );
 }
 

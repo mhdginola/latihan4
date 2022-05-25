@@ -1,0 +1,7 @@
+.contg{
+    display: block;
+    position: static;
+    box-sizing: content-box;
+    width: 100%;
+    overflow: auto;    
+}

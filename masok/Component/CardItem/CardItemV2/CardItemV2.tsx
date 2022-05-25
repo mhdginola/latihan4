@@ -15,8 +15,8 @@ function CardItemV2(props:any){
                     <h2>{props.product_name}</h2>
                     <p>{props.description}</p>                                          
                 </div>
-            {/* </div>                      */}
-        </div>
+            </div>                     
+        // </div>
         );    
 }
 

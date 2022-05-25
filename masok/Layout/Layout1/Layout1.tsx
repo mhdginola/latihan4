@@ -16,12 +16,12 @@ export default function Layout1(props:LayoutProps) {
                 <meta name="theme-color" content="#000000" />
                 <meta name="description" content="Web site created using create-react-app"/>   
                 <title>DEON</title>
-            </Head>
-            <Header2/>
+            </Head>            
+            <Header2/>            
             <div>
                 {children}
-            </div>                
-            <Footer/>
+            </div>                            
+            <Footer/>                        
         </div>
     )
 }
