@@ -14,7 +14,8 @@ function CardItemV2(props:any){
                             height={1000} 
                             layout='responsive' 
                             alt='ITEM' 
-                            loading="lazy"                          
+                            loading="lazy" 
+                            quality={40}                         
                             />
                     </div>
                 </div>
