@@ -5,7 +5,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/0.gif",
+        thumb:"/images/0.gif",
         category:"CCTV"
     },
     {
@@ -14,7 +14,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/1.png",
+        thumb:"/images/1.png",
         category:"CCTV"
     },
     {
@@ -23,7 +23,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/2.png",
+        thumb:"/images/2.png",
         category:"CCTV"
     },
     {
@@ -32,7 +32,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/3.png",
+        thumb:"/images/3.png",
         category:"CCTV"
     },
     {
@@ -41,7 +41,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "RP.",
-        thumb:"./images/10.png",
+        thumb:"/images/10.png",
         category:"Lampu"
     },
     {
@@ -50,7 +50,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/5.png",
+        thumb:"/images/5.png",
         category:"Lampu"
     },
     {
@@ -59,7 +59,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/6.png",
+        thumb:"/images/6.png",
         category:"Lampu"
     },
     {
@@ -68,7 +68,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/7.png",
+        thumb:"/images/7.png",
         category:"Alarm"
     },
     {
@@ -77,7 +77,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "RP.",
-        thumb:"./images/8.png",
+        thumb:"/images/8.png",
         category:"Alarm"
     },
     {
@@ -86,7 +86,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/9.png",
+        thumb:"/images/9.png",
         category:"Alarm"
     },
     {
@@ -95,7 +95,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/4.png",
+        thumb:"/images/4.png",
         category:"Lampu"
     },
     {
@@ -104,7 +104,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/11.png",
+        thumb: "/images/11.png",
         category:"Switch"
     },
     {
@@ -113,7 +113,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/12.png",
+        thumb:"/images/12.png",
         category:"CCTV"
     },
     {
@@ -122,7 +122,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/13.png",
+        thumb:"/images/13.png",
         category:"Alarm"
     },
     {
@@ -131,7 +131,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/14.png",
+        thumb:"/images/14.png",
         category:"CCTV"
     },
     {
@@ -140,7 +140,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/15.png",
+        thumb:"/images/15.png",
         category:"Alarm"
     },
     {
@@ -149,7 +149,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/16.png",
+        thumb:"/images/16.png",
         category:"Lampu"
     },
     {
@@ -158,7 +158,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/17.png",
+        thumb:"/images/17.png",
         category:"Switch"
     },
     {
@@ -167,7 +167,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/18.png",
+        thumb:"/images/18.png",
         category:"Switch"
     },
     {
@@ -176,7 +176,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/19.png",
+        thumb:"/images/19.png",
         category:"Switch"
     },
     {
@@ -185,7 +185,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/20.png",
+        thumb:"/images/20.png",
         category:"Switch"
     },
     {
@@ -194,7 +194,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/21.png",
+        thumb:"/images/21.png",
         category:"Switch"
     },
     {
@@ -203,7 +203,7 @@ const dataProduct =[
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
-        thumb:"./images/22.png",
+        thumb:"/images/22.png",
         category:"Switch"
     }
 
