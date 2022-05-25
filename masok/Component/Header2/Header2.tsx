@@ -9,15 +9,12 @@ export default function Header2(){
     const icgBars= '/images/bars.svg';
     const icgTimes= '/images/times.svg';
 
-    const handleClick=()=>{
-        console.log("click1");
+    const handleClick=()=>{        
         setStatg(!statg);
     }    
 
-    const handleClick2=()=>{  
-        console.log("click2");                      
-        setStatg(!statg);
-                       
+    const handleClick2=()=>{          
+        setStatg(!statg);                       
     }    
         return(          
             <nav className={st.navbarItem}>
@@ -29,10 +26,10 @@ export default function Header2(){
                     </Link>
                 </div>             
                 <ul className={statg===false?st.navMenu : st.navMenu+' '+ st.active}>                
-                    <li onClick={handleClick2}><Link href="/product"><a>SECURITY</a></Link></li>
-                    <li onClick={handleClick2}><Link href="/product"><a>SMART HOME</a></Link></li>
-                    <li onClick={handleClick2}><Link href="/product"><a>LIGHTING</a></Link></li>                    
-                    <li onClick={handleClick2}><Link href="/product"><a>ELECTRICAL</a></Link></li> 
+                    <li onClick={handleClick2}><Link href="/product/security"><a>SECURITY</a></Link></li>
+                    <li onClick={handleClick2}><Link href="/product/smart_home"><a>SMART HOME</a></Link></li>
+                    <li onClick={handleClick2}><Link href="/product/lighting"><a>LIGHTING</a></Link></li>                    
+                    <li onClick={handleClick2}><Link href="/product/electrical"><a>ELECTRICAL</a></Link></li> 
                     <li><Image src={"/images/instagram.svg"} width={20} height={20} alt={"instagram"} priority/></li>  
                     <li><Image src={"/images/tiktok.svg"} width={20} height={20} alt={"tiktok"} priority/></li>
                     <li><Image src={"/images/youtube.svg"} width={20} height={20} alt={"youtube"} priority/></li>                    

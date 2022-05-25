@@ -1,20 +1,23 @@
 import CardItemV2 from "../../Component/CardItem/CardItemV2/CardItemV2";
 import dataProduct from "../../Data/DataProduct/DataProduct";
-// import './MainContent.css';
-// import { useLocation } from "react-router-dom";
-// import { useRouter } from "next/router";
 
-const MainContent =()=>{
-    const data= dataProduct;
-    // const location = useRouter();        
-    // const fit= data.filter(hh=>{
-    //     return (hh.category===location.state.test)
-    // })
+const MainContent =(props:any)=>{
+    const data= dataProduct;         
+    console.log(props);        
+    if (props.id!==undefined){
+        console.log('masuk');
+        var fit= data.filter(hh=>{           
+            return (hh.category==props.id)        
+        })
+    }else{
+        console.log('keluar');        
+        var fit=data;
+    }
 
     return(
         <>       
         {
-        data.map((item)=> 
+        fit.map((item)=> 
         <CardItemV2
             key={item.id}
             id={item.id}

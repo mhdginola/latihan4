@@ -6,7 +6,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/0.gif",
-        category:"CCTV"
+        category:"security"
     },
     {
         id:1,
@@ -15,7 +15,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/1.png",
-        category:"CCTV"
+        category:"security"
     },
     {
         id:2,
@@ -24,7 +24,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/2.png",
-        category:"CCTV"
+        category:"security"
     },
     {
         id:3,
@@ -33,7 +33,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/3.png",
-        category:"CCTV"
+        category:"security"
     },
     {
         id:4,
@@ -42,7 +42,7 @@ const dataProduct =[
         price: 11000,
         currency: "RP.",
         thumb:"/images/10.png",
-        category:"Lampu"
+        category:"lighting"
     },
     {
         id:5,
@@ -51,7 +51,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/5.png",
-        category:"Lampu"
+        category:"lighting"
     },
     {
         id:6,
@@ -60,7 +60,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/6.png",
-        category:"Lampu"
+        category:"lighting"
     },
     {
         id:7,
@@ -69,7 +69,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/7.png",
-        category:"Alarm"
+        category:"smart_home"
     },
     {
         id:8,
@@ -78,7 +78,7 @@ const dataProduct =[
         price: 11000,
         currency: "RP.",
         thumb:"/images/8.png",
-        category:"Alarm"
+        category:"smart_home"
     },
     {
         id:9,
@@ -87,7 +87,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/9.png",
-        category:"Alarm"
+        category:"smart_home"
     },
     {
         id:10,
@@ -96,7 +96,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/4.png",
-        category:"Lampu"
+        category:"lighting"
     },
     {
         id:11,
@@ -105,7 +105,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb: "/images/11.png",
-        category:"Switch"
+        category:"electrical"
     },
     {
         id:12,
@@ -114,7 +114,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/12.png",
-        category:"CCTV"
+        category:"security"
     },
     {
         id:13,
@@ -123,7 +123,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/13.png",
-        category:"Alarm"
+        category:"smart_home"
     },
     {
         id:14,
@@ -132,7 +132,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/14.png",
-        category:"CCTV"
+        category:"security"
     },
     {
         id:15,
@@ -141,7 +141,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/15.png",
-        category:"Alarm"
+        category:"smart_home"
     },
     {
         id:16,
@@ -150,7 +150,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/16.png",
-        category:"Lampu"
+        category:"lighting"
     },
     {
         id:17,
@@ -159,7 +159,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/17.png",
-        category:"Switch"
+        category:"electrical"
     },
     {
         id:18,
@@ -168,7 +168,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/18.png",
-        category:"Switch"
+        category:"electrical"
     },
     {
         id:19,
@@ -177,7 +177,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/19.png",
-        category:"Switch"
+        category:"electrical"
     },
     {
         id:20,
@@ -186,7 +186,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/20.png",
-        category:"Switch"
+        category:"electrical"
     },
     {
         id:21,
@@ -195,7 +195,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/21.png",
-        category:"Switch"
+        category:"electrical"
     },
     {
         id:22,
@@ -204,7 +204,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/22.png",
-        category:"Switch"
+        category:"electrical"
     }
 
 ]
