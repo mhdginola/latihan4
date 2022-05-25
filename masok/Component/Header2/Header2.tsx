@@ -21,7 +21,13 @@ export default function Header2(){
                 <div className={"logo"}>
                     <Link href="/"><a>                        
                             <div className={'image-container'}>
-                            <Image src="/images/logo.png" layout="fill" objectFit="contain" className={'image'} alt="DEON" priority/>
+                            <Image 
+                                src="/images/logo.png"  
+                                layout="fill" 
+                                objectFit="contain" 
+                                className={'image'} 
+                                alt="DEON" 
+                                priority/>
                             </div></a>
                     </Link>
                 </div>             
@@ -30,9 +36,9 @@ export default function Header2(){
                     <li onClick={handleClick2}><Link href="/product/smart_home"><a>SMART HOME</a></Link></li>
                     <li onClick={handleClick2}><Link href="/product/lighting"><a>LIGHTING</a></Link></li>                    
                     <li onClick={handleClick2}><Link href="/product/electrical"><a>ELECTRICAL</a></Link></li> 
-                    <li><Image src={"/images/instagram.svg"} width={20} height={20} alt={"instagram"} priority/></li>  
-                    <li><Image src={"/images/tiktok.svg"} width={20} height={20} alt={"tiktok"} priority/></li>
-                    <li><Image src={"/images/youtube.svg"} width={20} height={20} alt={"youtube"} priority/></li>                    
+                    <li className={st.ictg}><Image src={"/images/instagram.svg"} width={20} height={20} alt={"instagram"} priority/></li>  
+                    <li className={st.ictg}><Image src={"/images/tiktok.svg"} width={20} height={20} alt={"tiktok"} priority/></li>
+                    <li className={st.ictg}><Image src={"/images/youtube.svg"} width={20} height={20} alt={"youtube"} priority/></li>                    
                 </ul>            
                 <div className={st.menuIcon} onClick={handleClick}>                                        
                     <Image src={statg===false?icgBars:icgTimes} width={20} height={20} alt={"menu"} priority/>                    

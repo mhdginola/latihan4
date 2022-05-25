@@ -1,13 +1,13 @@
 const dataProduct =[
-    {
-        id:0,
-        product_name:"product 3",
-        description:"Description, test 123 dan dan",
-        price: 11000,
-        currency: "Rp.",
-        thumb:"/images/0.gif",
-        category:"security"
-    },
+    // {
+    //     id:0,
+    //     product_name:"product 3",
+    //     description:"Description, test 123 dan dan",
+    //     price: 11000,
+    //     currency: "Rp.",
+    //     thumb:"/images/0.gif",
+    //     category:"security"
+    // },
     {
         id:1,
         product_name:"Smart Indoor PTZ CAM",

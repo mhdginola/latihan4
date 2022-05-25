@@ -8,7 +8,14 @@ function CardItemV2(props:any){
             <div className={st.cardg} >
                 <div className={st.card_img}>                
                     <div className={st.gbr}>
-                        <Image src={props.thumb} width={300} height={300} alt='ITEM' loading="lazy"/>
+                        <Image 
+                            src={props.thumb} 
+                            width={1000} 
+                            height={1000} 
+                            layout='responsive' 
+                            alt='ITEM' 
+                            loading="lazy"                          
+                            />
                     </div>
                 </div>
                 <div className={st.card_header}>
