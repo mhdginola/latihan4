@@ -13,7 +13,7 @@
     }
   
     .navMenu{
-        display: block;
+        display: none;
         flex-direction: column;
         margin: 0px;
         padding: 0px;
@@ -27,6 +27,7 @@
 
   
     .navMenu.active{
+        display: block;
         background: #134A86;
         padding: 0px;
         top: 72px;
