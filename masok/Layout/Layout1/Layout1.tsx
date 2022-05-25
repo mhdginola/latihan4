@@ -17,7 +17,7 @@ export default function Layout1(props:LayoutProps) {
                 <meta name="description" content="Web site created using create-react-app"/>   
                 <title>DEON</title>
             </Head>
-            {/* <Header2/> */}
+            <Header2/>
             <div>
                 {children}
             </div>                
