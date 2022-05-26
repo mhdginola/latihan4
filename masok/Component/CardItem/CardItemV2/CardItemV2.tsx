@@ -10,9 +10,8 @@ function CardItemV2(props:any){
                     <div className={st.gbr}>
                         <Image 
                             src={props.thumb} 
-                            width={1000} 
-                            height={1000} 
-                            layout='responsive' 
+                            width={200} 
+                            height={200}                             
                             alt='ITEM' 
                             loading="lazy" 
                             quality={40}                         
