@@ -16,7 +16,7 @@ export default function EyeN3() {
           <p>a smarter way of living</p>        
         </div>  
         <div className={st.uta}>        
-            
+            <Spline scene="https://prod.spline.design/66r8CG8Gmx61L5E7/scene.splinecode"/>
         </div>   
     </div>
     
