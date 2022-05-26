@@ -6,7 +6,7 @@ export default function Home(){
   return (
     <Layout1>
       <EyeN3/>
-      <ContactUsForm/>
+      <ContactUsForm/>      
     </Layout1>
   )
 }

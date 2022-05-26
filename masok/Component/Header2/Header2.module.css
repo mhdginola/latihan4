@@ -39,11 +39,19 @@
   
     .menuIcon{
         display: flex;
+        width: 32px;
+        height: 32px;
         color: white;
         cursor: pointer;
+        justify-content: center;        
         transform: scale(1.5);
         border: 2px solid white;
         border-radius: 5px;
         padding: 4px;
     }
   } 
+
+.sos{
+    width: 20px;
+    height: 20px;
+}
