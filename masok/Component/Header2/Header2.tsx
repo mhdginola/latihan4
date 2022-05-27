@@ -26,7 +26,7 @@ export default function Header2(){
                     <Link href="/"><a>                        
                             <div className={'image-container'}>
                             <Image 
-                                src="/images/logo.png"  
+                                src="/images/logo2.png"  
                                 layout="fill" 
                                 objectFit="contain" 
                                 className={'image'} 

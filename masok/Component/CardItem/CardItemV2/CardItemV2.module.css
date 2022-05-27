@@ -5,7 +5,14 @@
 }
 
 .cardg{
-    background-color: #95B5E8;
+    /* background-color: #BDC2C9; */
+    /* background: #f7faff; */
+    /* background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4); */
+    /* background: linear-gradient(to right, #e8cbc0, #636fa4);  */
+    /* background-color: #8BC6EC; */
+    /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+    background-color:#d5f3fe;
+    background-image: linear-gradient(135deg, #d5f3fe 0%, #134A86 100%);
     width: 100%;
     padding: 0px;
     /* border-radius: 15px; */
@@ -53,6 +60,7 @@
     transform: translate(-50%,-50%);
     /* object-fit:contain; */
     filter: drop-shadow(-67px 65px 38px rgba(0, 0, 0, 0.01)) drop-shadow(-38px 37px 32px rgba(0, 0, 0, 0.05)) drop-shadow(-17px 16px 23px rgba(0, 0, 0, 0.09)) drop-shadow(-4px 4px 13px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));
+    /* filter: drop-shadow(-67px 65px 38px rgba(19, 74, 134, 0.01)) drop-shadow(-38px 37px 32px rgba(19, 74, 134, 0.05)) drop-shadow(-17px 16px 23px rgba(19, 74, 134, 0.09)) drop-shadow(-4px 4px 13px rgba(19, 74, 134, 0.1)) drop-shadow(0px 0px 0px rgba(19, 74, 134, 0.1)); */
 }
 
 @media only screen and (min-width: 550px){
@@ -86,4 +94,10 @@
     transform: scale(1);
     transition: all 0.5s ease;
     cursor: pointer;
+}
+
+.lggg{
+    position: absolute;
+    bottom: -16px;
+    right: 16px;
 }

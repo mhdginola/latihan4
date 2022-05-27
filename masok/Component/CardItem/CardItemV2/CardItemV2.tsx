@@ -17,6 +17,16 @@ function CardItemV2(props:any){
                             quality={40}                         
                             />
                     </div>
+                    <div className={st.lggg}>
+                        <Image 
+                            src="/images/icon3.png"
+                            width={40} 
+                            height={40}                             
+                            alt='ITEM' 
+                            loading="lazy" 
+                            quality={40}                         
+                            />
+                    </div>
                 </div>
                 <div className={st.card_header}>
                     <h2>{props.product_name}</h2>
