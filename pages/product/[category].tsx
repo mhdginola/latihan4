@@ -7,6 +7,7 @@ export default function Product(){
   const {category} = routerLink.query;
   return (
     <Layout1>
+      <h1>{category}</h1>
       <MainContent        
         id={category}
       />
