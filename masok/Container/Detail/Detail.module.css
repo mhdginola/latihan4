@@ -1,0 +1,50 @@
+.container{
+    /* border: 1px solid red; */
+    margin: 24px 72px;
+    display: flex;
+    position: relative;    
+    align-items: flex-start;
+}
+
+.imgdet{    
+    /* border: 1px solid red; */
+    display: inline-block;    
+    width: 35%;  
+    background-color:#d5f3fe;
+    background-image: linear-gradient(135deg, #d5f3fe 0%, #134A86 100%);
+}
+
+.picg{            
+    width: 100%;
+}
+
+.bellImg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.picgb{    
+    width: 30%;    
+}
+
+.descdet{
+    display: inline-block;
+    width: 65%;
+    padding-left: 40px;
+}
+
+.blo{
+    color: #134A86;
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        display: block;
+    }
+    .imgdet{
+        width: 100%;
+    }
+    .descdet{
+        width: 100%;
+    }
+}

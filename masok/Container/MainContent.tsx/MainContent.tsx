@@ -3,8 +3,7 @@ import dataProduct from "../../Data/DataProduct/DataProduct";
 import st from './MainContent.module.css';
 
 const MainContent =(props:any)=>{
-    const data= dataProduct;         
-    console.log(props);        
+    const data= dataProduct;                    
     if (props.id!==undefined){        
         var fit= data.filter(hh=>{           
             return (hh.category==props.id)        
@@ -16,7 +15,7 @@ const MainContent =(props:any)=>{
     return(
         <div className={st.contg}>       
         {
-        fit.map((item)=> 
+        fit.map((item)=>  
         <CardItemV2
             key={item.id}
             id={item.id}

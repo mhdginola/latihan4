@@ -1,10 +1,11 @@
 import st from './CardItemV2.module.css';
 // import dataProduct from '../../../Data/DataProduct/DataProduct';
 import Image from 'next/image';
+import Link from 'next/link';
 
 function CardItemV2(props:any){
-    return(
-        // <div className={st.bungkus}>
+    return(    
+        <Link href={'detail/'+props.id}><a>
             <div className={st.cardg} >
                 <div className={st.card_img}>                
                     <div className={st.gbr}>
@@ -32,9 +33,10 @@ function CardItemV2(props:any){
                     <h2>{props.product_name}</h2>
                     <p>{props.description}</p>                                          
                 </div>
-            </div>                     
-        // </div>
-        );    
+            </div>                                 
+            </a>
+        </Link>        
+        );   
 }
 
 export default CardItemV2;
