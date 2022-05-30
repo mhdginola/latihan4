@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import Image from 'next/image';
+// import Image from 'next/image';
 import st from './EyeG1.module.css';
 
 const Spline = dynamic(() => import('@splinetool/react-spline'), {

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import st from './DetailCard.module.css';
 
 const DetailCard =(props:any)=>{    
