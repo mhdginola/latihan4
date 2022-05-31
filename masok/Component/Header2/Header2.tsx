@@ -36,11 +36,17 @@ export default function Header2(){
                             </a>
                     </Link>
                 </div>             
-                <ul className={statg===false?st.navMenu : st.navMenu+' '+ st.active}>                
-                    <li onClick={handleClick2}><Link href="/product/security"><a>SECURITY</a></Link></li>
-                    <li onClick={handleClick2}><Link href="/product/smart_home"><a>SMART HOME</a></Link></li>
-                    <li onClick={handleClick2}><Link href="/product/lighting"><a>LIGHTING</a></Link></li>                    
-                    <li onClick={handleClick2}><Link href="/product/electrical"><a>ELECTRICAL</a></Link></li> 
+                <ul className={statg===false?st.navMenu : st.navMenu+' '+ st.active}>
+                    <li>ABOUT</li>
+                    <li className={st.hop}><a>PRODUCT</a>
+                        <ul className={st.droit}>
+                            <li onClick={handleClick2}><Link href="/product/security"><a>SECURITY</a></Link></li>
+                            <li onClick={handleClick2}><Link href="/product/smart_home"><a>SMART HOME</a></Link></li>
+                            <li onClick={handleClick2}><Link href="/product/lighting"><a>LIGHTING</a></Link></li>                    
+                            <li onClick={handleClick2}><Link href="/product/electrical"><a>ELECTRICAL</a></Link></li>                         
+                        </ul>
+                    </li>
+                    
                     <li>
                         <div className={st.sos}>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

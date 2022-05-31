@@ -55,3 +55,20 @@
     width: 20px;
     height: 20px;
 }
+
+.droit{
+    display: none;
+    position: absolute;
+    /* top: 72px;     */
+    padding: 0px;
+    background-color: white;
+    z-index: 1;    
+}
+
+.hop:hover > .droit{    
+    display: block;    
+}
+
+.droit:hover{
+    display: block;
+}
