@@ -37,7 +37,7 @@ const DetailCard =(props:any)=>{
                 <h1>{props.product_name}</h1>
                 <div className="description">
                     <hr />
-                    <h2>SPESIFIKASI</h2>
+                    <h2>Specification</h2>
                     <table>
                         {it}
                     </table>
