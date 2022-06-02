@@ -1,7 +1,65 @@
-.ft{    
-    display: block;        
-    width: 100%;
-    height: 100px;    
-    background-color: #134A86;
-    color: white;
+.rowg{
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+}
+
+.ft1{    
+    display: flex;     
+    flex-direction: row;   
+    width: 100%;     
+    /* background-color: red; */
+    color: #134A86;
+}
+.ft2{    
+    display: flex;
+    flex-direction: row;        
+    width: 100%;    
+    /* background-color: blue; */
+    color: #134A86;
+}
+
+.contga{    
+    display: flex;
+    flex-direction: row;    
+    align-content:center;    
+    justify-content: baseline;
+    justify-self:baseline;
+    justify-items: baseline;
+    width: 100%;    
+}
+
+.lokasi{
+    width: 100%;    
+}
+
+@media screen and (max-width: 1000px){
+    .rowg{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .rowg{
+        flex-direction: column;
+    }
+    .ft1{        
+        flex-direction: column;
+    }
+    .ft2{        
+        flex-direction: column;
+    }
+}
+
+.icl{    
+    /* width: 20%;      */
+    align-self: center;    
+}
+
+.ptr{
+    width: 80%;    
+}
+
+.sp1{
+    margin-bottom: 8px;
 }

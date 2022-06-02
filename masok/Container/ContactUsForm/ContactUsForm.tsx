@@ -1,13 +1,14 @@
 import st from './ContactUsForm.module.css';
 
-export default function ContactUsForm() {
+export default function ContactUsForm() {  
     return(
         <>
+        
             <div className="container-fluid bg-light overflow-hidden px-lg-0 maig" >
                 <div className="container contact px-lg-0">
                     <div className="row g-0 mx-lg-0">
                         <div className="col-lg-6 contact-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                            <div className="p-lg-5 ps-lg-0">
+                            <div className="p-lg-5 ps-lg-0">                                
                                 <h6 className="text-primary">Contact Us</h6>
                                 <h1 className="mb-4">Get in touch</h1>
                                 <p className="mb-4">Deon Inquiry Form</p>
@@ -15,25 +16,25 @@ export default function ContactUsForm() {
                                     <div className="row g-3">
                                         <div className="col-md-6">
                                             <div className="form-floating">
-                                                <input type="text" className="form-control" id="name" placeholder="Your Name"/>
+                                                <input type="text" className="form-control" id="full" placeholder="Your Name" name='full'/>
                                                 <label htmlFor="name">Your Name</label>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-floating">
-                                                <input type="email" className="form-control" id="email" placeholder="Your Email"/>
+                                                <input type="email" className="form-control" id="email" placeholder="Your Email" name='email'/>
                                                 <label htmlFor="email">Your Email</label>
                                             </div>
                                         </div>
                                         <div className="col-12">
                                             <div className="form-floating">
-                                                <input type="text" className="form-control" id="subject" placeholder="Subject"/>
+                                                <input type="text" className="form-control" id="subject" placeholder="subject" name='subject'/>
                                                 <label htmlFor="subject">Subject</label>
                                             </div>
                                         </div>
                                         <div className="col-12">
                                             <div className="form-floating">
-                                                <textarea className="form-control" placeholder="Leave a message here" id="message" ></textarea>
+                                                <textarea className="form-control" placeholder="Leave a message here" id="pesan" name='pesan'></textarea>
                                                 <label htmlFor="message">Message</label>
                                             </div>
                                         </div>
@@ -41,7 +42,7 @@ export default function ContactUsForm() {
                                             <button className="btn btn-primary rounded-pill py-3 px-5" type="submit">Send Message</button>
                                         </div>
                                     </div>
-                                </form>
+                                </form>                                
                             </div>
                         </div>
                         {/* <div className="col-lg-6 pe-lg-0" >
@@ -54,7 +55,7 @@ export default function ContactUsForm() {
                         </div> */}
                     </div>
                 </div>
-            </div>
+            </div>                                       
         </>
     )
 }

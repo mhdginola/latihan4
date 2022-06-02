@@ -37,15 +37,17 @@ export default function Header2(){
                     </Link>
                 </div>             
                 <ul className={statg===false?st.navMenu : st.navMenu+' '+ st.active}>
-                    <li>ABOUT</li>
+                    <li><Link href="/"><a>HOME</a></Link></li>
+                    {/* <li>ABOUT</li> */}
                     <li className={st.hop}><a>PRODUCT</a>
                         <ul className={st.droit}>
                             <li onClick={handleClick2}><Link href="/product/security"><a>SECURITY</a></Link></li>
                             <li onClick={handleClick2}><Link href="/product/smart_home"><a>SMART HOME</a></Link></li>
                             <li onClick={handleClick2}><Link href="/product/lighting"><a>LIGHTING</a></Link></li>                    
                             <li onClick={handleClick2}><Link href="/product/electrical"><a>ELECTRICAL</a></Link></li>                         
-                        </ul>
+                        </ul>                        
                     </li>
+                    <li>CONTACT US</li>            
                     
                     <li>
                         <div className={st.sos}>
