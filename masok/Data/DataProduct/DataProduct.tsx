@@ -64,7 +64,7 @@ const dataProduct =[
     },
     {
         id:7,
-        product_name:"product 1",
+        product_name:"Smart Alarm System",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -73,7 +73,7 @@ const dataProduct =[
     },
     {
         id:8,
-        product_name:"product 2",
+        product_name:"Smart Smoke Detector",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "RP.",
@@ -82,7 +82,7 @@ const dataProduct =[
     },
     {
         id:9,
-        product_name:"product 3",
+        product_name:"Smart PIR Motion Sensor",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -91,7 +91,7 @@ const dataProduct =[
     },
     {
         id:10,
-        product_name:"product 3",
+        product_name:"Smart Bulb RGB",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -100,7 +100,7 @@ const dataProduct =[
     },
     {
         id:11,
-        product_name:"product 3",
+        product_name:"Smart Gas Leak Sensor",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -109,7 +109,7 @@ const dataProduct =[
     },
     {
         id:12,
-        product_name:"product 3",
+        product_name:"Smart Door Sensor",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -118,7 +118,7 @@ const dataProduct =[
     },
     {
         id:13,
-        product_name:"SMART BREAKER",
+        product_name:"Smart Breaker",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -127,7 +127,7 @@ const dataProduct =[
     },
     {
         id:14,
-        product_name:"product 3",
+        product_name:"Smart IR Remote",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -136,7 +136,7 @@ const dataProduct =[
     },
     {
         id:15,
-        product_name:"product 3",
+        product_name:"Smart Water Leak Sensor",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -145,7 +145,7 @@ const dataProduct =[
     },
     {
         id:16,
-        product_name:"product 3",
+        product_name:"Smart LED Strip",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -154,7 +154,7 @@ const dataProduct =[
     },
     {
         id:17,
-        product_name:"product 3",
+        product_name:"Smart Glass Switch",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -163,7 +163,7 @@ const dataProduct =[
     },
     {
         id:18,
-        product_name:"product 3",
+        product_name:"Smart Wall Socket EU",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -172,7 +172,7 @@ const dataProduct =[
     },
     {
         id:19,
-        product_name:"product 3",
+        product_name:"Smart Wall Socket UNI",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -181,7 +181,7 @@ const dataProduct =[
     },
     {
         id:20,
-        product_name:"product 3",
+        product_name:"Smart Wall Switch",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -190,7 +190,7 @@ const dataProduct =[
     },
     {
         id:21,
-        product_name:"product 3",
+        product_name:"Smart Wall Plug",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -199,7 +199,7 @@ const dataProduct =[
     },
     {
         id:22,
-        product_name:"product 3",
+        product_name:"Smart Curtain",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
