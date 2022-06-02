@@ -15,7 +15,7 @@ export default function Layout1(props:LayoutProps) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="theme-color" content="#000000" />
                 <meta name="description" content="Web site created using create-react-app"/>  
-                <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>                 
+                
                 <title>DEON | SMART LIVING</title>
             </Head>            
             <Header2/>                   

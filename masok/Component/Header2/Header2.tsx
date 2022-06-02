@@ -31,7 +31,7 @@ export default function Header2(){
                                 objectFit="contain" 
                                 className={'image'} 
                                 alt="DEON" 
-                                priority/>
+                                />
                             </div>
                             </a>
                     </Link>
