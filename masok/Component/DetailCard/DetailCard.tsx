@@ -1,4 +1,4 @@
-// import Image from 'next/image';
+import Image from 'next/image';
 import dataSpek from '../../Data/DataSpek/DataSpek';
 import Spek from '../Spek/Spek';
 import st from './DetailCard.module.css';
@@ -19,18 +19,41 @@ const DetailCard =(props:any)=>{
         <div className={st.container}>                                    
             <div className={st.imgdet}>
                 <div className={st.mainImg}>
-                    <img className={st.picg} src={props.thumb} alt="Cool green dress with red bell"/>
-                    {/* <Image 
+                    {/* <img className={st.picg} src={props.thumb} alt="Cool green dress with red bell"/> */}
+                    <Image 
                         src={props.thumb}
-                        width={300}
-                        height={300}
-                        alt='img'                        
-                    /> */}
+                        width={400}
+                        height={400}
+                        alt='img'   
+                        className={st.picg}                    
+                        
+                    />
                 </div>
                 <div className={st.bellImg}>
-                    <img className={st.picgb} alt="Berry Lace Dress" src={props.thumb}/>
-                    <img className={st.picgb} alt="Berry Lace Dress" src={props.thumb}/>
-                    <img className={st.picgb} alt="Berry Lace Dress" src={props.thumb}/>
+                    <Image 
+                        src={props.thumb}
+                        width={100}
+                        height={100}
+                        alt='img'   
+                        className={st.picgb}                    
+                        
+                    />
+                    <Image 
+                        src={props.thumb}
+                        width={100}
+                        height={100}
+                        alt='img'   
+                        className={st.picgb}                    
+                        
+                    />
+                    <Image 
+                        src={props.thumb}
+                        width={100}
+                        height={100}
+                        alt='img'   
+                        className={st.picgb}                    
+                        
+                    />
                 </div>                
             </div>                            
             <div className={st.descdet}>
