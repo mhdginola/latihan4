@@ -21,6 +21,7 @@ const Detail =(props:any)=>{
             id={item.id}
             thumb={item.thumb}
             product_name={item.product_name}
+            spg={item.id}
         />
         )}  
       </>    

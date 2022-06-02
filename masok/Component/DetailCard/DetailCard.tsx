@@ -1,7 +1,20 @@
 // import Image from 'next/image';
+import dataSpek from '../../Data/DataSpek/DataSpek';
+import Spek from '../Spek/Spek';
 import st from './DetailCard.module.css';
 
 const DetailCard =(props:any)=>{    
+    const dtgg=dataSpek;    
+    console.log(dtgg[0][props.spg]);    
+
+    const it =dtgg[props.spg-1].map((item)=>
+        <Spek
+            key={item.id}
+            sp={item.sp}
+            dt={item.dt}
+        />  
+    )
+
     return(        
         <div className={st.container}>                                    
             <div className={st.imgdet}>
@@ -24,7 +37,18 @@ const DetailCard =(props:any)=>{
                 <h1>{props.product_name}</h1>
                 <div className="description">
                     <hr />
-                    <p>SPECS</p>       
+                    <h2>SPESIFIKASI</h2>
+                    <table>
+                        {it}
+                    </table>
+                                       
+                    {/* // <Spek
+                    //     key={dtgg[0][0][0].id}
+                    //     sp={dtgg[0][0][0].sp}
+                    //     dt={dtgg[0][0][1].sp}
+                    // />  */}
+
+                    {/* <p>SPECS</p>       
                     <h4 className={st.blo}>General</h4>                                         
                     <p>
                         Image Sensor :1/3" 2Megapixel CMOS Effective Pixels :1920 (H) x 1080 (V) Shutter :1/15~1/10.000s Min. Illuminance :Color 0.1Lux@F2.0 Black/White 0.01 Lux@F2.0 
@@ -43,7 +67,7 @@ const DetailCard =(props:any)=>{
                     <h4 className={st.blo}>Video & Audio</h4>
                     <p>
                         Compression :H264 Bit Rate :32Kbps~2Mbps Audio Input/Output :Built-in Mic/Speaker Frame Rate :1~25Hz
-                    </p>                                                
+                    </p>                                                 */}
                 </div>
             </div>               
         </div>        

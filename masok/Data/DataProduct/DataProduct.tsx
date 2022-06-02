@@ -118,7 +118,7 @@ const dataProduct =[
     },
     {
         id:13,
-        product_name:"product 3",
+        product_name:"SMART BREAKER",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",
@@ -159,7 +159,7 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/17.png",
-        category:"electrical"
+        category:"electrical"        
     },
     {
         id:18,
