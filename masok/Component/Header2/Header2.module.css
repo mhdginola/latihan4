@@ -7,7 +7,7 @@
     margin-bottom: auto;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 780px){
     .navbarItem{
         position: relative;
     }
@@ -67,8 +67,10 @@
 
 .hop:hover > .droit{    
     display: block;    
+    z-index: 1;
 }
 
 .droit:hover{
     display: block;
+    z-index: 1;
 }

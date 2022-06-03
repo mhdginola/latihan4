@@ -25,8 +25,7 @@ const DetailCard =(props:any)=>{
                         width={400}
                         height={400}
                         alt='img'   
-                        className={st.picg}                    
-                        
+                        className={st.picg}                                            
                     />
                 </div>
                 <div className={st.bellImg}>
