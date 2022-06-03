@@ -37,7 +37,7 @@ const dataProduct =[
     },
     {
         id:4,
-        product_name:"Smart Hexagonal",
+        product_name:"Smart Bulb 9 RGB",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "RP.",
@@ -91,7 +91,7 @@ const dataProduct =[
     },
     {
         id:10,
-        product_name:"Smart Bulb RGB",
+        product_name:"Smart Hexagonal",
         description:"Description, test 123 dan dan",
         price: 11000,
         currency: "Rp.",

@@ -1,6 +1,6 @@
 .container{
     /* border: 1px solid red; */    
-    margin: 24px 72px;
+    margin: 24px 10%;
     display: block;
     position: relative;    
     align-items: flex-start;
@@ -38,7 +38,7 @@
 .descdet{
     display: block;
     width: 100%;
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 
 .blo{

@@ -20,25 +20,121 @@ const dataSpek=[
             dt:'dt'
         },
     ],
+    
     [
         {
-            id:'4000',
-            sp:'sp',
-            dt:'dt'
+            id:'10000',
+            sp:'Dimmable',
+            dt:'Yes'
+        },
+        {
+            id:'10001',
+            sp:'Size',
+            dt:'60x118 mm'
+        },
+        {
+            id:'10002',
+            sp:'Base',
+            dt:'E27'
+        },
+        {
+            id:'10003',
+            sp:'Rated Voltage',
+            dt:'AC220-240V'
+        },
+        {
+            id:'10004',
+            sp:'Frequency',
+            dt:'50Hz'
+        },
+        {
+            id:'10005',
+            sp:'Wattage',
+            dt:'9W'
+        },
+        {
+            id:'10006',
+            sp:'Color Temperature',
+            dt:'2700K-6500K + RGB'
+        },
+        {
+            id:'10007',
+            sp:'Environment Temperature (°C)',
+            dt:'-20° ~ +45° C'
         },
     ],
     [
         {
             id:'5000',
-            sp:'sp',
-            dt:'dt'
+            sp:'Power',
+            dt:'9W'
+        },
+        {
+            id:'5001',
+            sp:'WiFi',
+            dt:'IEEE 802.11 b/g/n 2.4GHz'
+        },
+        {
+            id:'5002',
+            sp:'System Support',
+            dt:'iOS & Android OS'
+        },
+        {
+            id:'5003',
+            sp:'Dimention',
+            dt:'60x60x105 mm'
+        },
+        {
+            id:'5004',
+            sp:'Weight',
+            dt:'150 gr'
+        },
+        {
+            id:'5005',
+            sp:'Voltage',
+            dt:'240V 60Hz'
+        },
+        {
+            id:'5006',
+            sp:'Working Time',
+            dt:'50.000 hours'
         },
     ],
     [
         {
             id:'6000',
-            sp:'sp',
-            dt:'dt'
+            sp:'Adaptor',
+            dt:'1A & 4A'
+        },
+        {
+            id:'6001',
+            sp:'Input Voltage',
+            dt:'AC 100 ~ 240V, 50Hz'
+        },
+        {
+            id:'6002',
+            sp:'Output',
+            dt:'12V'
+        },
+        {
+            id:'6003',
+            sp:'CCT',
+            dt:'2700K - 6500K RGB'
+        },
+        {
+            id:'6004',
+            sp:'Lumen',
+            dt:'280lm / m'
+        },
+        {
+            id:'6005',
+            sp:'CRI',
+            dt:'80'
+        },
+        {
+            id:'6006',
+            sp:'Size',
+            dt:'2 m'
         },
     ],
     [
@@ -64,9 +160,19 @@ const dataSpek=[
     ],
     [
         {
-            id:'10000',
-            sp:'sp',
-            dt:'dt'
+            id:'4000',
+            sp:'Control',
+            dt:'APP & Controller'
+        },
+        {
+            id:'4001',
+            sp:'Color',
+            dt:'RGB Change Color'
+        },
+        {
+            id:'4002',
+            sp:'Feature',
+            dt:'16 Million Colors + DIY Light Mode + AI Google, Alexa'
         },
     ],
     [
@@ -132,8 +238,38 @@ const dataSpek=[
     [
         {
             id:'16000',
-            sp:'sp',
-            dt:'dt'
+            sp:'Power',
+            dt:'9W'
+        },
+        {
+            id:'16001',
+            sp:'WiFi',
+            dt:'IEEE 802.11 b/g/n 2.4GHz'
+        },
+        {
+            id:'16002',
+            sp:'System Support',
+            dt:'iOS & Android OS'
+        },
+        {
+            id:'16003',
+            sp:'Dimention',
+            dt:'60x60x105 mm'
+        },
+        {
+            id:'16004',
+            sp:'Weight',
+            dt:'150 gr'
+        },
+        {
+            id:'16005',
+            sp:'Voltage',
+            dt:'240V 60Hz'
+        },
+        {
+            id:'16006',
+            sp:'Working Time',
+            dt:'50.000 hours'
         },
     ],
     [
