@@ -1,4 +1,5 @@
 import Image from "next/image";
+import st from './SlideContent.module.css';
 
 export default function SlideContent(){
     return(
@@ -11,30 +12,30 @@ export default function SlideContent(){
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/>
-                    {/* <div className="d-block w-100">
-                        <Image src="/images/bgb2.jpg" layout='fill' objectFit='cover' alt="back"/>     
-                    </div> */}
+                {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
+                    <div className={st.ccgg}>
+                        <Image src="/images/bgb2.jpg" layout='fill' alt="back" quality={50}/>     
+                    </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/>
-                    {/* <div className="d-block w-100">
-                        <Image src="/images/bgb2.jpg" layout='fill' objectFit='cover' alt="back"/>     
-                    </div> */}
+                {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
+                    <div className={st.ccgg}>
+                        <Image src="/images/bgb2.jpg" layout='fill' alt="back" quality={50}/>     
+                    </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/>
-                    {/* <div className="d-block w-100">
-                        <Image src="/images/bgb2.jpg" layout='fill' objectFit='cover' alt="back"/>     
-                    </div> */}
+                {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
+                    <div className={st.ccgg}>
+                        <Image src="/images/bgb2.jpg" layout='fill' alt="back" quality={50}/>     
+                    </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p>
@@ -50,6 +51,9 @@ export default function SlideContent(){
                 <span className="visually-hidden">Next</span>
             </button>
             </div>
+                    {/* <div className="d-block w-100">
+                        <Image src="/images/bgb2.jpg" width={100} height={100} className="d-block w-100" alt="back"/>     
+                    </div> */}
         </div>
     )
 }
