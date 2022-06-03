@@ -2,7 +2,10 @@
     /* border: 1px solid red; */    
     margin: 24px 10%;
     display: block;
-    position: relative;    
+    position: absolute;    
+    top: 72px;
+    left: 0px;
+    width: 80%;
     align-items: flex-start;
 }
 
