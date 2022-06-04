@@ -35,7 +35,7 @@ export default function SlideContent(){
                 <div className="carousel-item">
                 {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
                     <div className={st.ccgg}>
-                        <Image src="/images/bgb2.jpg" layout="fill" alt="back" objectFit="cover" quality={50} priority/>     
+                        <Image src="/images/bgb1.jpg" layout="fill" alt="back" objectFit="cover" quality={50} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
@@ -45,7 +45,7 @@ export default function SlideContent(){
                 <div className="carousel-item">
                 {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
                     <div className={st.ccgg}>
-                        <Image src="/images/bgb2.jpg" layout="fill" alt="back" objectFit="cover" quality={50} priority/>     
+                        <Image src="/images/bgb3.jpg" layout="fill" alt="back" objectFit="cover" quality={50} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>4 slide label</h5>
