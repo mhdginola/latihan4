@@ -109,3 +109,16 @@ footer ul{
 table tr td{
   padding-right: 16px;
 }
+
+#bght{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+#mmssdd{
+  background-color: white;
+  padding: 8px;  
+  border-radius: 50%;
+}

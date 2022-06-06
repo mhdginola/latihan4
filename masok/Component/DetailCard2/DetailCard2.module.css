@@ -1,0 +1,69 @@
+.container{
+    /* border: 1px solid red; */    
+    margin: 24px 10%;
+    display: block;
+    position: absolute;    
+    top: 72px;
+    left: 0px;
+    width: 80%;
+    align-items: flex-start;
+}
+
+.imgdet{    
+    /* border: 1px solid red; */
+    display: block;    
+    width: 100%;  
+    background-color:#d5f3fe;
+    background-image: linear-gradient(135deg, #d5f3fe 0%, #134A86 100%);
+}
+
+.mainImg{
+    display: flex;    
+    width: 100%;
+    height: auto;    
+    justify-content: center;
+}
+
+.picg{                
+    width: 100%;
+    height: auto;
+}
+
+.bellImg{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.picgb{    
+    width: 30%;    
+}
+
+.descdet{
+    display: block;
+    width: 100%;
+    /* padding-left: 40px; */
+}
+
+.blo{
+    color: #134A86;
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        display: block;
+    }
+    .imgdet{
+        width: 100%;
+    }
+    .descdet{
+        width: 100%;
+    }
+}
+
+.ccgg{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}

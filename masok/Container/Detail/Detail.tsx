@@ -1,6 +1,7 @@
 import st from './Detail.module.css';
 import dataProduct from '../../Data/DataProduct/DataProduct';
 import DetailCard from '../../Component/DetailCard/DetailCard';
+import DetailCard2 from '../../Component/DetailCard2/DetailCard2';
 
 const Detail =(props:any)=>{    
     const data= dataProduct;    
@@ -16,7 +17,7 @@ const Detail =(props:any)=>{
     return(        
       <>
       {fit.map((item)=> 
-        <DetailCard
+        <DetailCard2
             key={item.id}
             id={item.id}
             thumb={item.thumb}
