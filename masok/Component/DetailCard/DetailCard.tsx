@@ -30,7 +30,7 @@ const DetailCard =(props:any)=>{
                 </div>
                 <div className={st.bellImg}>
                     <Image 
-                        src={props.thumb}
+                        src={props.thumb1}
                         width={100}
                         height={100}
                         alt='img'   
@@ -38,7 +38,7 @@ const DetailCard =(props:any)=>{
                         
                     />
                     <Image 
-                        src={props.thumb}
+                        src={props.thumb2}
                         width={100}
                         height={100}
                         alt='img'   
@@ -46,7 +46,7 @@ const DetailCard =(props:any)=>{
                         
                     />
                     <Image 
-                        src={props.thumb}
+                        src={props.thumb3}
                         width={100}
                         height={100}
                         alt='img'   

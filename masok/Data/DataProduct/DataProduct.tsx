@@ -15,6 +15,9 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/1.png",
+        thumb1:"/images/1/1.png",
+        thumb2:"/images/1/2.png",
+        thumb3:"/images/1/3.png",
         category:"security"
     },
     {
@@ -24,6 +27,9 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/2.png",
+        thumb1:"/images/2/1.png",
+        thumb2:"/images/2/2.png",
+        thumb3:"/images/2/3.png",
         category:"security"
     },
     {
@@ -33,6 +39,9 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/3.png",
+        thumb1:"/images/3/1.png",
+        thumb2:"/images/3/2.png",
+        thumb3:"/images/3/3.png",
         category:"security"
     },
     {
@@ -87,6 +96,9 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/9.png",
+        thumb1:"/images/9/1.png",
+        thumb2:"/images/9/2.png",
+        thumb3:"/images/9/3.png",
         category:"smart_home"
     },
     {
@@ -141,6 +153,9 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/15.png",
+        thumb1:"/images/15/1.png",
+        thumb2:"/images/15/2.png",
+        thumb3:"/images/15/3.png",
         category:"smart_home"
     },
     {
@@ -159,6 +174,9 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/17.png",
+        thumb1:"/images/17/1.png",
+        thumb2:"/images/17/2.png",
+        thumb3:"/images/17/3.png",
         category:"electrical"        
     },
     {
@@ -186,6 +204,9 @@ const dataProduct =[
         price: 11000,
         currency: "Rp.",
         thumb:"/images/20.png",
+        thumb1:"/images/20/1.png",
+        thumb2:"/images/20/2.png",
+        thumb3:"/images/20/3.png",
         category:"electrical"
     },
     {
