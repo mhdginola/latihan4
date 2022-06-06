@@ -12,40 +12,40 @@ export default function SlideContent(){
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div className="carousel-inner">
-                <div className="carousel-item active">
+                <div className="carousel-item active" data-bs-interval="5000">
                 {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
                     <div className={st.ccgg}>
-                        <Image src="/images/bgb2.jpg" layout="fill" alt="back" objectFit="cover" quality={50} priority/>     
+                        <Image src="/images/bgb3.jpg" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item" data-bs-interval="5000">
                 {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
                     <div className={st.ccgg}>
-                        <Image src="/images/bgb2.jpg" layout="fill" alt="back" objectFit="cover" quality={50} priority/>     
+                        <Image src="/images/bgb2.jpg" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item" data-bs-interval="5000">
                 {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
                     <div className={st.ccgg}>
-                        <Image src="/images/bgb1.jpg" layout="fill" alt="back" objectFit="cover" quality={50} priority/>     
+                        <Image src="/images/bgb1.jpg" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p>
                 </div>
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item" data-bs-interval="5000">
                 {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
                     <div className={st.ccgg}>
-                        <Image src="/images/bgb3.jpg" layout="fill" alt="back" objectFit="cover" quality={50} priority/>     
+                        <Image src="/images/bgb3.jpg" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>4 slide label</h5>
