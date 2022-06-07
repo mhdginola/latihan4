@@ -17,6 +17,8 @@ export default function Layout1(props:LayoutProps) {
                 <meta name="description" content="Web site created using create-react-app"/>  
                 
                 <title>DEON | SMART LIVING</title>
+                <link rel="icon" type="image/png" href='/icon3.png'/>
+                
             </Head>            
             <Header2/>                   
             <div>                
