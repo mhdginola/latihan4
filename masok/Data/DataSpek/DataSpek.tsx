@@ -494,8 +494,33 @@ const dataSpek=[
     [
         {
             id:'14000',
-            sp:'sp',
-            dt:'dt'
+            sp:'Size',
+            dt:'Ø 40x14mm'
+        },
+        {
+            id:'14001',
+            sp:'Cable',
+            dt:'1 meter'
+        },
+        {
+            id:'14002',
+            sp:'Input',
+            dt:'DC 5V/1A'
+        },
+        {
+            id:'14003',
+            sp:'Wi-Fi Standard',
+            dt:'2.4GHz'
+        },
+        {
+            id:'14004',
+            sp:'Infrared Frequency',
+            dt:'38KHz'
+        },
+        {
+            id:'14005',
+            sp:'Infrared Range',
+            dt:'≤12 meters'
         },
     ],
     [

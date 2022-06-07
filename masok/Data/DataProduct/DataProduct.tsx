@@ -218,15 +218,15 @@ const dataProduct =[
         thumb:"/images/21.png",
         category:"electrical"
     },
-    {
-        id:22,
-        product_name:"Smart Curtain",
-        description:"Description, test 123 dan dan",
-        price: 11000,
-        currency: "Rp.",
-        thumb:"/images/22.png",
-        category:"electrical"
-    }
+    // {
+    //     id:22,
+    //     product_name:"Smart Curtain",
+    //     description:"Description, test 123 dan dan",
+    //     price: 11000,
+    //     currency: "Rp.",
+    //     thumb:"/images/22.png",
+    //     category:"electrical"
+    // }
 
 ]
 
