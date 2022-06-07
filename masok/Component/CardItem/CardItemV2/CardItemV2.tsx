@@ -20,7 +20,7 @@ function CardItemV2(props:any){
                     </div>
                     <div className={st.lggg}>
                         <Image 
-                            src="/images/LD3.svg"
+                            src="/images/LD33.svg"
                             width={40} 
                             height={40}                             
                             alt='ITEM' 
