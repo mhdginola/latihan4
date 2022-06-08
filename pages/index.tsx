@@ -6,7 +6,7 @@ import Layout1 from '../masok/Layout/Layout1/Layout1';
 
 export default function Home(){  
   return (
-    <Layout1>      
+    <Layout1 pageTitle='SMART LIVING'>      
       {/* <EyeN3/> */}
       <SlideContent/>
       {/* <BestProduct/> */}

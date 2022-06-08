@@ -5,10 +5,11 @@ import Header2 from "../../Component/Header2/Header2";
 
 interface LayoutProps{
     children:ReactNode;
+    pageTitle:string;
 }
 
 export default function Layout1(props:LayoutProps) {
-    const {children} =props;    
+    const {children, pageTitle} =props;    
     return(
         <div>
             <Head>               
@@ -16,7 +17,7 @@ export default function Layout1(props:LayoutProps) {
                 <meta name="theme-color" content="#000000" />
                 <meta name="description" content="Web site created using create-react-app"/>  
                 <meta name="google-site-verification" content="6jWW6TQNWYBtpeObeyqARhGPSNsUFg0nmXvbdVK3qkc" />
-                <title>DEON | SMART LIVING</title>
+                <title>DEON | {pageTitle}</title>
                 <link rel="icon" type="image/png" href='/LD3.svg'/>
                 
             </Head>            

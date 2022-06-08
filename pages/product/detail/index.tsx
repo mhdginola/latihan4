@@ -3,7 +3,7 @@ import Detail from '../../../masok/Container/Detail/Detail';
 
 export default function detail(){
   return (
-    <Layout1>
+    <Layout1 pageTitle="Detail">
       <Detail/>
     </Layout1>
   )
