@@ -1,6 +1,7 @@
 import st from './ContactUsForm4.module.css';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import Router from 'next/router';
 
 export default function ContactUsForm4() {  
     const form = useRef();
@@ -10,6 +11,8 @@ export default function ContactUsForm4() {
         emailjs.sendForm('service_1bip41o','template_3jp2jk1', e.target ,'ftmRNCj8ds4q86bdL')
         .then((result) => {
             console.log(result.text);
+            alert("pesan terkirim");
+            Router.reload();
         }, (error) => {
             console.log(error.text);
         });
