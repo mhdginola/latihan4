@@ -1,9 +1,22 @@
 import st from './ContactUsForm4.module.css';
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 
 export default function ContactUsForm4() {  
+    const form = useRef();
+    const sendEmail=(e: { preventDefault: () => void; target:any})=>{
+        e.preventDefault();
+
+        emailjs.sendForm('service_1bip41o','template_3jp2jk1', e.target ,'ftmRNCj8ds4q86bdL')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
     return(
         <>
-        
+    
             <div className="container-fluid bg-light overflow-hidden px-lg-0 maig" >
                 <div className="container contact px-lg-0">
                     <div className="row g-0 mx-lg-0">
@@ -12,36 +25,14 @@ export default function ContactUsForm4() {
                                 <h6 className="text-primary">Contact Us</h6>
                                 <h1 className="mb-4">Get in touch</h1>
                                 <p className="mb-4">Deon Inquiry Form</p>
-                                <form>
-                                    <div className="row g-3">
-                                        <div className="col-md-6">
-                                            <div className="form-floating">
-                                                <input type="text" className="form-control" id="full" placeholder="Your Name" name='full'/>
-                                                <label htmlFor="name">Your Name</label>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6">
-                                            <div className="form-floating">
-                                                <input type="email" className="form-control" id="email" placeholder="Your Email" name='email'/>
-                                                <label htmlFor="email">Your Email</label>
-                                            </div>
-                                        </div>
-                                        <div className="col-12">
-                                            <div className="form-floating">
-                                                <input type="text" className="form-control" id="subject" placeholder="subject" name='subject'/>
-                                                <label htmlFor="subject">Subject</label>
-                                            </div>
-                                        </div>
-                                        <div className="col-12">
-                                            <div className="form-floating">
-                                                <textarea className="form-control" placeholder="Leave a message here" id="pesan" name='pesan'></textarea>
-                                                <label htmlFor="message">Message</label>
-                                            </div>
-                                        </div>
-                                        <div className="col-12">
-                                            <button className="btn btn-primary rounded-pill py-3 px-5" type="submit">Send Message</button>
-                                        </div>
-                                    </div>
+                                <form onSubmit={sendEmail}>
+                                    <label>Name</label>
+                                    <input type="text" name="full" />
+                                    <label>Email</label>
+                                    <input type="email" name="email" />
+                                    <label>Message</label>
+                                    <textarea name="pesan" />
+                                    <input type="submit" value="Send" />
                                 </form>                                
                             </div>
                         </div>
