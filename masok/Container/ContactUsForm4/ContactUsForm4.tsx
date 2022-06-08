@@ -26,13 +26,36 @@ export default function ContactUsForm4() {
                                 <h1 className="mb-4">Get in touch</h1>
                                 <p className="mb-4">Deon Inquiry Form</p>
                                 <form onSubmit={sendEmail}>
-                                    <label>Name</label>
+                                    <div className="row g-3">
+                                        <div className="col-md-6">
+                                            <div className="form-floating">
+                                                <input type="text" className="form-control" id="full" placeholder="Your Name" name='full'/>
+                                                <label htmlFor="name">Your Name</label>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6">
+                                            <div className="form-floating">
+                                                <input type="email" className="form-control" id="email" placeholder="Your Email" name='email'/>
+                                                <label htmlFor="email">Your Email</label>
+                                            </div>
+                                        </div>                                        
+                                        <div className="col-12">
+                                            <div className="form-floating">
+                                                <textarea className="form-control" placeholder="Leave a message here" id="pesan" name='pesan'></textarea>
+                                                <label htmlFor="message">Message</label>
+                                            </div>
+                                        </div>
+                                        <div className="col-12">
+                                            <button className="btn btn-primary rounded-pill py-3 px-5" type="submit" value={"send"}>Send Message</button>
+                                        </div>
+                                    </div>
+                                    {/* <label>Name</label>
                                     <input type="text" name="full" />
                                     <label>Email</label>
                                     <input type="email" name="email" />
                                     <label>Message</label>
                                     <textarea name="pesan" />
-                                    <input type="submit" value="Send" />
+                                    <input type="submit" value="Send" /> */}
                                 </form>                                
                             </div>
                         </div>
