@@ -32,19 +32,19 @@ export default function ContactUsForm4() {
                                     <div className="row g-3">
                                         <div className="col-md-6">
                                             <div className="form-floating">
-                                                <input type="text" className="form-control" id="full" placeholder="Your Name" name='full'/>
+                                                <input type="text" className="form-control" id="full" placeholder="Your Name" name='full' required/>
                                                 <label htmlFor="name">Your Name</label>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-floating">
-                                                <input type="email" className="form-control" id="email" placeholder="Your Email" name='email'/>
+                                                <input type="email" className="form-control" id="email" placeholder="Your Email" name='email' required/>
                                                 <label htmlFor="email">Your Email</label>
                                             </div>
                                         </div>                                        
                                         <div className="col-12">
                                             <div className="form-floating">
-                                                <textarea className="form-control" placeholder="Leave a message here" id="pesan" name='pesan'></textarea>
+                                                <textarea className="form-control" placeholder="Leave a message here" id="pesan" name='pesan'  required></textarea>
                                                 <label htmlFor="message">Message</label>
                                             </div>
                                         </div>
