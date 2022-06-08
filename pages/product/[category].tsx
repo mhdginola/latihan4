@@ -7,7 +7,7 @@ export default function Product(){
   const {category} = routerLink.query;
   
   return (
-    <Layout1 pageTitle={''}>
+    <Layout1 pageTitle={'Product '+category}>
       {/* <h1>{category}</h1> */}
       <br/>
       <MainContent        

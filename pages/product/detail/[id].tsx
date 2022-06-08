@@ -6,7 +6,7 @@ import FakeSkeleton from '../../../masok/Component/FakeSkeleton/FakeSkeleton';
 export default function DetailL(){
     const routerLink = useRouter();
     const {id} = routerLink.query;
-    console.log(typeof id);
+    // console.log(typeof id);
   return (
     <Layout1 pageTitle={'Detail '+id}>
       <FakeSkeleton/>
