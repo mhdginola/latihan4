@@ -1,0 +1,4 @@
+User-agent:*
+Allow: /
+
+Sitemap: deonsmart.com/api/my-sitemap
