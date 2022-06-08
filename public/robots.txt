@@ -1,4 +1,9 @@
-User-agent:*
+# *
+User-agent: *
 Allow: /
 
-Sitemap: deonsmart.com/api/my-sitemap
+# Host
+Host: https://deonsmart.com
+
+# Sitemaps
+Sitemap: https://deonsmart.com/sitemap.xml
