@@ -5,6 +5,7 @@
 .navMenu{
     margin-top: auto;
     margin-bottom: auto;
+    z-index: 1;
 }
 
 @media screen and (max-width: 780px){
