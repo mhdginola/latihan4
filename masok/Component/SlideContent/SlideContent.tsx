@@ -18,8 +18,8 @@ export default function SlideContent(){
                         <Image src="/images/Artboard1.png" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>Lighting</h5>
+                    <p>a smarter way of living</p>
                 </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="5000">
@@ -28,8 +28,8 @@ export default function SlideContent(){
                         <Image src="/images/Artboard2.png" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>Electrical</h5>
+                    <p>a smarter way of living</p>
                 </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="5000">
@@ -38,8 +38,8 @@ export default function SlideContent(){
                         <Image src="/images/Artboard3.jpg" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>Security</h5>
+                    <p>a smarter way of living</p>
                 </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="5000">
@@ -48,8 +48,8 @@ export default function SlideContent(){
                         <Image src="/images/Artboard4.jpg" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
-                    <h5>4 slide label</h5>
-                    <p>Some representative placeholder content for the 4 slide.</p>
+                    <h5>Smart Home</h5>
+                    <p>a smarter way of living</p>
                 </div>
                 </div>
             </div>
