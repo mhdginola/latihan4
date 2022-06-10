@@ -15,7 +15,7 @@ export default function Layout1(props:LayoutProps) {
             <Head>               
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="theme-color" content="#000000" />
-                <meta name="description" content="The preferred smart home solution in Indonesia, a smarter way of living. Providing security and comfort to your home with technology such as Deon Smart Camera and Deon Smart Bulb"/>                  
+                <meta name="description" content="The preferred smart home solution in Indonesia, a smarter way of living. Providing security and comfort to your home with technology such as Deon Smart Camera and Deon Smart Bulb" />
                 <meta name="google-site-verification" content="6jWW6TQNWYBtpeObeyqARhGPSNsUFg0nmXvbdVK3qkc" />
                 <meta name="author" content="Deon"/>
                 <title>DEON | {pageTitle}</title>
