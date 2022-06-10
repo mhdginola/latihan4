@@ -55,7 +55,7 @@ export default function Header2(){
                 <ul className={statg===false?st.navMenu : st.navMenu+' '+ st.active}>
                     <li><Link href="/"><a>HOME</a></Link></li>
                     {/* <li>ABOUT</li> */}
-                    <li className={st.hop}><a>PRODUCT</a>
+                    <li className={st.hop}>PRODUCT
                         <ul className={st.droit}>
                             <li onClick={handleClick2}><Link href="/product/security"><a>SECURITY</a></Link></li>
                             <li onClick={handleClick2}><Link href="/product/smart_home"><a>SMART HOME</a></Link></li>
@@ -67,7 +67,7 @@ export default function Header2(){
                     
                     <li>
                         <a
-                        href='https://instagram.com/deonsmartliving?igshid=YmMyMTA2M2Y='
+                        href="https://instagram.com/deonsmartliving?igshid=YmMyMTA2M2Y="
                         target={"_blank"}
                         rel={"noreferrer"}>
                         <div className={st.sos}>
@@ -79,7 +79,7 @@ export default function Header2(){
                     </li>  
                     <li>                   
                         <a
-                        href='https://www.tiktok.com/@deonsmartliving?lang=id-ID'
+                        href="https://www.tiktok.com/@deonsmartliving?lang=id-ID"
                         target={"_blank"}
                         rel={"noreferrer"}>     
                         <div className={st.sos}>

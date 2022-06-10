@@ -15,7 +15,7 @@ export default function SlideContent(){
                 <div className="carousel-item active" data-bs-interval="5000">
                 {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
                     <div className={st.ccgg}>
-                        <Image src="/images/Artboard1-1.png" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
+                        <Image src="/images/Artboard1-1.png" layout="fill" alt="back" objectFit="cover" quality={50} priority/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Lighting</h5>
@@ -25,7 +25,7 @@ export default function SlideContent(){
                 <div className="carousel-item" data-bs-interval="5000">
                 {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
                     <div className={st.ccgg}>
-                        <Image src="/images/Artboard2-1.png" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
+                        <Image src="/images/Artboard2-1.png" layout="fill" alt="back" objectFit="cover" quality={50}/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Electrical</h5>
@@ -35,7 +35,7 @@ export default function SlideContent(){
                 <div className="carousel-item" data-bs-interval="5000">
                 {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
                     <div className={st.ccgg}>
-                        <Image src="/images/Artboard3-1.png" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
+                        <Image src="/images/Artboard3-1.png" layout="fill" alt="back" objectFit="cover" quality={50}/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Security</h5>
@@ -45,7 +45,7 @@ export default function SlideContent(){
                 <div className="carousel-item" data-bs-interval="5000">
                 {/* <img src="/images/bgb2.jpg" className="d-block w-100" alt="..."/> */}
                     <div className={st.ccgg}>
-                        <Image src="/images/Artboard4-1.png" layout="fill" alt="back" objectFit="cover" quality={75} priority/>     
+                        <Image src="/images/Artboard4-1.png" layout="fill" alt="back" objectFit="cover" quality={50}/>     
                     </div>
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Smart Home</h5>

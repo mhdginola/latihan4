@@ -22,6 +22,7 @@ const MainContent =(props:any)=>{
             thumb={item.thumb}
             product_name={item.product_name}
             description={item.description}
+            description2={item.description2}
         />                    
         )
         }
